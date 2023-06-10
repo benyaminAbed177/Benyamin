@@ -1,0 +1,89 @@
+
+
+/* Giving a background-color to the nav container. */
+nav {
+   
+    margin: -10px 0;
+    background-image: linear-gradient(rgb(95, 0, 124), rgb(126, 40, 167)); /* کد گرادینت */
+    direction: rtl;
+   margin-right:-10PX;
+   margin-LEFT:-10PX;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+    padding:2;
+    margin:10PX;
+    list-style: none;
+    position: relative;
+    }
+
+/* Positioning the navigation items inline */
+nav ul li {
+    margin: px -7px 1 1;
+    display:inline-block;
+    }
+
+/* Styling the links */
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:18px;
+    line-height: 45Px;
+    text-decoration:none;
+}
+
+/* Background color change on Hover */
+nav a:hover {
+}
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+ nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    min-width:80px;
+    display:list-item;
+    position: relative;
+}
+.img{
+float: right;
+
+}
+
+    a {
+        color: #ffffff;
+    }
+
+   div.nav{
+    background-color:b rgba(79, 250, 0, 0.966);
+    direction: rtl;padding-right: 30;
+   }
+   ul.menue li{
+    list-style:none;
+
+   }
+.bb{
+    width: 20px;
+    height: 50px;
+}
+.cer{width: 100px;
+width: 100px;
+border-radius: 20px;
+color: blue;
+
+
+
+}
+.BUT{ width: 100px;height: 100px;border-radius: 50px;mask-image:url(https://th.bing.com/th/id/OIP.z2Imwo-vRXtsyZnQciznIwHaIW?w=149&h=180&c=7&r=0&o=5&pid=1.7);}
